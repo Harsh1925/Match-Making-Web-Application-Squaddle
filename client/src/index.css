@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif !important;
+    text-align: center;
+    background-color: #00b7ff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h2 {
+    font-style: italic;
+}
+
+* {
+    font-family: "Readex Pro", sans-serif;
+}
+
+.primary-title {
+    margin-top: 390px;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+
+.primary-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(45deg, #fe3072, #ff5940);
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-top: -400px;
+}
+
+.primary-button:hover {
+    background: linear-gradient(260deg, rgb(254, 48, 114), rgb(255, 89, 64));
+}
+
+.secondary-button {
+    color: rgb(121, 119, 119);
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: solid 2px rgb(121, 119, 119);
+    margin: 6px;
+}
+
+.secondary-button:hover {
+    color: rgb(48, 48, 48);
+    border: solid 2px rgb(48, 48, 48);
+}
+
+
+/* -----Navbar---- */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav .nav-button {
+    color: rgb(254, 48, 114);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+nav .nav-button:disabled {
+    background-color: rgb(181, 180, 180);
+    color: rgb(189, 42, 90);
+}
+
+nav .logo-container {
+    width: 43px;
+    margin: 10px;
+}
+
+nav .logo-container .logo {
+    width: 100%;
+}
+
+/* -----Home Page ------- */
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.65) 0%,
+            rgba(0, 0, 0, 0) 100%),
+        url("images/6069078.jpg")
+}
+
+.home {
+    margin-top: 30vh;
+}
+
+/* ----Auth Model-------- */
+
+.auth-model {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 48px;
+}
+
+.auth-model .close-icon {
+    float: right;
+}
+
+.auth-model form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-model input[type=password],
+.auth-model input[type=email] {
+    padding: 8px;
+    margin: 8px;
+    font-size: 17px;
+}
+
+.onboarding {
+    background-image: url("./images/color2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.onboarding h2 {
+    margin-top: 0%;
+    padding-top: 1%;
+}
+
+.onboarding form {
+    display: flex;
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.onboarding form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    text-align: start;
+}
+
+.onboarding .skill {
+    padding: 10px 1px;
+}
+
+.onboarding form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.onboarding form label {
+    margin: 10px 0;
+}
+
+.onboarding form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.onboarding form input::-webkit-outer-spin-button,
+.onboarding form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.onboarding form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.onboarding form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(105, 110, 12);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.onboarding form input[type=radio] {
+    display: none;
+}
+
+.onboarding form input[type=text] {
+    background-color: white;
+}
+
+.onboarding form input[type=number] {
+    width: 10%;
+
+}
+
+.onboarding .submit-button {
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+.onboarding form input[type=radio]:checked+label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.onboarding form input[type=submit]:hover {
+    background-color: rgb(226, 223, 223);
+}
+
+.onboarding form input[type=submit]:active {
+    background-color: rgb(226, 115, 115);
+}
+
+.onboarding form .photo-container img {
+    width: 80%;
+    margin-left: 2%;
+}
+
+/*-----------UserData------------------------*/
+
+.userdata {
+    background-image: url("./images/color2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.userdata h2 {
+    margin-top: 0%;
+    padding-top: 1%;
+}
+
+.userdata form {
+    display: flex;
+    justify-content: center;
+
+}
+
+.userdata form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    text-align: start;
+}
+
+.userdata .skill {
+    padding: 10px 1px;
+}
+
+.userdata form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.userdata form label {
+    margin: 10px 0;
+}
+
+.userdata form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.userdata form input::-webkit-outer-spin-button,
+.userdata form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.userdata form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.userdata form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(105, 110, 12);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.userdata form input[type=radio] {
+    display: none;
+}
+
+.userdata form input[type=text] {
+    background-color: white;
+}
+
+.userdata form input[type=number] {
+    width: 10%;
+
+}
+
+.userdata .submit-button {
+    margin-top: 30px;
+    background-color: #ffffff;
+    margin-bottom: 8%;
+}
+
+.userdata form input[type=radio]:checked+label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.userdata form input[type=submit]:hover {
+    background-color: rgb(226, 223, 223);
+}
+
+.userdata form input[type=submit]:active {
+    background-color: rgb(226, 115, 115);
+}
+
+.userdata form .photo-container img {
+    width: 80%
+}
+
+.userdata .project-dess input {
+    width: 90%
+}
+
+.userdata .pro-button button {
+    margin-bottom: 3%;
+}
+
+
+/*-------- Dashboard  --------*/
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+
+}
+
+.dashboard .swipe-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.swipe {
+    position: absolute;
+}
+
+.dashboard .card-container {
+    width: 400px;
+    height: 650px;
+}
+
+.card {
+    display: block;
+    width: 400px;
+    height: 650px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card img {
+    max-width: 60%;
+    max-height: 30%;
+    border-radius: 20%;
+    margin-top: 17%;
+    margin-bottom: 20px;
+
+}
+
+.card .info {
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+
+}
+
+.dashboard .swipe-info {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.card button {
+
+    margin-top: 5%;
+
+}
+
+/*-------- Chat Container --------*/
+.chat-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 20%;
+    text-align: left;
+    z-index: 1;
+}
+
+.chat-container .chat-container-header {
+    background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-container .option {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(243, 33, 33);
+    font-size: 20px;
+    margin: 7px;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.chat-container .option:disabled {
+    border-bottom: solid 4px rgb(187, 187, 187);
+}
+
+.chat-container .profile,
+.chat-container .log-out-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.img-container {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+/*-------- Chat Display --------*/
+.chat-display,
+.matches-display {
+    padding: 20px;
+    height: 75vh;
+    overflow-y: auto;
+    margin-left: 3%;
+}
+
+/*-------- Chat Input --------*/
+.chat-input {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -44%;
+}
+
+/*------------userInfo-model-------------------*/
+
+.userInfo-model {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 260px;
+    height: 522px;
+    background-image: linear-gradient(180deg, rgb(131, 142, 151), rgb(197, 197, 197), rgb(131, 142, 151));
+    border-radius: 20px;
+    padding: 48px;
+}
+
+.userInfo-model h2 {
+    margin-top: -9%;
+}
+
+.userInfo-model .userInfo-content {
+    margin-top: 10%;
+    max-width: 1000px;
+    height: 100px;
+}
+
+.userInfo-model .close-icon {
+    float: right;
+    margin-top: -20px;
+    margin-right: -10px;
+    border: 2px solid;
+    border-radius: 80px;
+}
+
+/*-------EditUser-----------*/
+
+.edituser-header {
+    background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    height: 90px;
+    width: auto;
+    align-items: center;
+}
+
+.edituser-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(45deg, #4bd27f, #2e5aea);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 23px;
+    margin-right: 4%;
+}
+
+.edituser-button:hover {
+    background: linear-gradient(260deg, rgb(29, 178, 113), rgb(36, 88, 176));
+}
+
+.post-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(45deg, #4bd27f, #2e5aea);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 23px;
+}
+
+.post-button:hover {
+    background: linear-gradient(260deg, rgb(29, 178, 113), rgb(36, 88, 176));
+}
+
+/*------------------filter-----------*/
+
+
+.filter {
+    height: 88%;
+    padding: 0%;
+}
+
+.filter .headerbutton {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 4% 8%;
+    font-size: medium;
+}
+
+.user-filter {
+    padding: 8%;
+    border: 2px dotted;
+    margin-bottom: 7%;
+    margin: 1rem;
+
+}
+
+.user-filter h3 {
+    padding: 0% 15%;
+}
+
+/*-----------EditUser------------------------*/
+
+.editUser {
+    background-image: url("./images/color2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    padding: 1%;
+    height: fit-content
+}
+
+.editUser h2 {
+    margin-top: 0%;
+}
+
+.editUser form {
+    display: flex;
+    justify-content: center;
+}
+
+.editUser form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    text-align: start;
+}
+
+.editUser .skill {
+    padding: 10px 1px;
+}
+
+.editUser form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.editUser form label {
+    margin: 10px 0;
+}
+
+.editUser form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.editUser form input::-webkit-outer-spin-button,
+.editUser form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.editUser form .multiple-input-container input {
+    margin-right: 10px;
+}
+
+.editUser form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(105, 110, 12);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.editUser form input[type=radio] {
+    display: none;
+}
+
+.editUser form input[type=text] {
+    background-color: white;
+}
+
+.editUser form input[type=number] {
+    width: 10%;
+
+}
+
+.editUser .submit-button {
+    margin-top: 30px;
+    background-color: #ffffff;
+    margin-bottom: 8%;
+}
+
+.editUser form input[type=radio]:checked+label {
+    border: solid 2px rgb(221, 39, 22);
+}
+
+.editUser form input[type=submit]:hover {
+    background-color: rgb(226, 223, 223);
+}
+
+.editUser form input[type=submit]:active {
+    background-color: rgb(226, 115, 115);
+}
+
+.editUser form .photo-container img {
+    width: 80%
+}
+
+.back-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 7px 13px;
+    font-size: medium;
+}
