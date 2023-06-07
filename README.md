@@ -23,5 +23,8 @@
 <li>MongoDB</li>
 </ul>
 <h2>ScreenShots Of Application</h2>
-https://github.com/Harsh1925/Match-Making-Web-Application-Squaddle/blob/main/1.png
-![alt text](http://url/to/img.png)
+<hr><ul>
+<img src="1.png" alt="Alt text" title="Optional title">
+</ul><ul>
+<img src="2.png" alt="Alt text" title="Optional title">
+  </ul>
