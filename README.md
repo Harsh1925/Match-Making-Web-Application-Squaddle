@@ -23,5 +23,3 @@
 <li>MongoDB</li>
 </ul>
 <h2>ScreenShots Of Application</h2>
-
-
