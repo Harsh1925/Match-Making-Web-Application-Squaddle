@@ -22,7 +22,6 @@
 </ul><ul>
 <li>MongoDB</li>
 </ul>
-<h2>Imagies Of Application</h2>
-![1](https://github.com/Harsh1925/Match-Making-Web-Application-Squaddle/assets/57036820/429d2586-6f11-4743-8128-63b4c7e2ce20)
-![2](https://github.com/Harsh1925/Match-Making-Web-Application-Squaddle/assets/57036820/e7ee23b8-914b-48db-b7c5-eaf5b251150f)
+<h2>ScreenShots Of Application</h2>
+
 
